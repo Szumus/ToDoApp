@@ -1,24 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
+import ToDoApp from './components/ToDoApp';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div className='hover:scale-125 transition duration-1000 bg-white mx-auto my-28 w-[400px] items-center px-[5px] py-[5px] hover:shadow-2xl  rounded-md  '>
+   <ToDoApp/>
+   </div>
   );
 }
 
